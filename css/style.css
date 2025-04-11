@@ -16,6 +16,14 @@ body {
 
     display: flex;
     justify-content: center;
+    gap: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
 }
 
 .profile-image {
@@ -30,5 +38,11 @@ body {
 .profile-name {
     margin-top: 20px;
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
+}
+
+.profile-location {
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+    font-weight: 600;
 }
