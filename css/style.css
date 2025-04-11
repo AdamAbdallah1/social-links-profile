@@ -17,6 +17,14 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
+    align-items: flex-start;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
 }
 
 .profile {
@@ -24,25 +32,35 @@ body {
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     align-items: center;
+    justify-content: center;
 }
 
 .profile-image {
-    margin-top: 30px;
     width: 100px;
     margin-left: 50px;
     object-fit: cover;    /* Makes sure the image doesn't get stretched */
     border-radius: 50%;   /* This makes it a perfect circle */
     height: 100px;
+    justify-content: center;
+    margin: auto;
 }
 
 .profile-name {
     margin-top: 20px;
     color: white;
     font-family: 'Inter', sans-serif;
+    margin-bottom: -10px;
 }
 
 .profile-location {
     color: hsl(75, 94%, 57%);
     margin-top: 10px;
     font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.profile-about {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
 }
