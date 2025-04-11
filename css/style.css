@@ -75,17 +75,20 @@ body {
     justify-content: space-between;
 }
 
-button {
-    padding: 10px;
-    background-color: hsl(0, 0%, 20%);
-    color: white;
-    border-radius: 10px;
-    border: none;
-    font-weight: 600;
-}
 
 a {
     color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
     text-decoration: none;
     border: hsl(0, 0%, 20%);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+}
+
+a:hover{
+    color: black;
+    background-color: hsl(75, 94%, 57%);
 }
