@@ -2,11 +2,6 @@
 
 A simple and responsive social profile page built with HTML and CSS. This project is inspired by a [Frontend Mentor challenge](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ), showcasing personal branding and important social media links.
 
-## 🔍 Preview
-
-![Preview Screenshot](assets/images/screenshot.png)  
-*(Replace with actual screenshot if available)*
-
 ---
 
 ## 🚀 Features
@@ -34,18 +29,6 @@ This site adapts gracefully to screen sizes including:
 - 📱 Mobile Devices
 - 💻 Tablets
 - 🖥️ Desktop
-
----
-
-## 📁 Folder Structure
-
-
----
-
-## 🔗 Live Demo
-
-Coming soon...  
-*(Or link your hosted project here if deployed)*
 
 ---
 
